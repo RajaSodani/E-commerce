@@ -1,4 +1,9 @@
-# PedroTech Shop Web App
+
+## Deployed Link
+
+- https://e-commerce-tech-alpha.vercel.app/
+- 
+# Techiee Shop Web App
 
 ## Overview
 
@@ -25,7 +30,4 @@ PedroTech Shop is a modern e-commerce web application built using React. It feat
 ### 5. Payment Integration
 - **Payment Gateway**: Integration with a payment gateway to process transactions.
 
-## Folder Structure
-
-Here is the folder structure for the project:
 
