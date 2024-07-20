@@ -1,0 +1,141 @@
+.shopTitle {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+}/* Grid view styles */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.product {
+  border-radius: 15px;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in;
+}
+
+.product img {
+  width: 80%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product .description {
+  text-align: center;
+}
+
+.product:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.addToCartBttn {
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.addToCartBttn:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
+
+/* List view styles */
+.product-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.product-list-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.product-list-item .description {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.product-list-item .addToCartBttn {
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.product-list-item .addToCartBttn:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
+
+/* SearchBar styles */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-input {
+  width: 50%;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #333;
+  border-radius: 25px;
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+/* View toggle button styles */
+.view-toggle {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.view-toggle button {
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.view-toggle button:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+}
